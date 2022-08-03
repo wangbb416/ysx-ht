@@ -5,6 +5,7 @@
 ## Build Setup
 
 ``` bash
+# 后台管理
 # install dependencies
 npm install
 
