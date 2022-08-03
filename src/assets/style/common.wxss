@@ -1,0 +1,41 @@
+.update {
+  border: solid 1px #67c23a;
+}
+
+.update:hover {
+  border: solid 1px #57a135;
+}
+
+.detail {
+  border: solid 1px #f5af3b;
+}
+
+.delete {
+  border: solid 1px #dd6161;
+}
+
+.delete:hover {
+  border: solid 1px #c95c5d;
+}
+
+.add {
+  width: 50px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+  line-height: 30px;
+  border: solid 1px #3a8ee6;
+}
+
+.add:hover {
+  border: solid 1px #3884d3;
+}
+
+.common-button {
+  border: solid 1px #3a8ee6;
+}
+
+.common-button:hover {
+  border: solid 1px #3884d3;
+}
