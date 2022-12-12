@@ -1,41 +1,16 @@
-.update {
-  border: solid 1px #67c23a;
-}
-
-.update:hover {
-  border: solid 1px #57a135;
-}
-
-.detail {
-  border: solid 1px #f5af3b;
-}
-
-.delete {
-  border: solid 1px #dd6161;
-}
-
-.delete:hover {
-  border: solid 1px #c95c5d;
-}
-
-.add {
-  width: 50px;
-  height: 30px;
-  border-radius: 5px;
-  text-align: center;
+.import-data {
+  border: 1px solid #F8FDFF;
   color: #fff;
-  line-height: 30px;
-  border: solid 1px #3a8ee6;
+  padding: 9px 32px;
 }
-
-.add:hover {
-  border: solid 1px #3884d3;
+.export-data {
+  border: 1px solid #00E6FF;
+  color: #00E6FF;
+  padding: 9px 32px;
 }
-
-.common-button {
-  border: solid 1px #3a8ee6;
+.el-table {
+  color: rgba(0, 0, 0, 0.9);
 }
-
-.common-button:hover {
-  border: solid 1px #3884d3;
+.el-table thead {
+  color: rgba(0, 0, 0, 0.4);
 }

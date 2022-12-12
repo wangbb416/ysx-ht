@@ -1,0 +1,128 @@
+{
+  "id": "3490055",
+  "name": "蓝色循环",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "6527107",
+      "name": "单位",
+      "font_class": "danwei",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "9656295",
+      "name": "统计分析",
+      "font_class": "tongjifenxi1",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "20000252",
+      "name": "视频",
+      "font_class": "shipin",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "826154",
+      "name": "视频管理",
+      "font_class": "shipinguanli",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "2959116",
+      "name": "账号管理",
+      "font_class": "zhanghaoguanli",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "6366906",
+      "name": "设备",
+      "font_class": "shebei",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "7677926",
+      "name": "场地设备",
+      "font_class": "changdishebei",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "9495521",
+      "name": "设备类型",
+      "font_class": "shebeileixing",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "11799084",
+      "name": "设备监控",
+      "font_class": "shebeijiankong",
+      "unicode": "e661",
+      "unicode_decimal": 58977
+    },
+    {
+      "icon_id": "3282354",
+      "name": "服务统计",
+      "font_class": "fuwutongji",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "9809633",
+      "name": "统计分析",
+      "font_class": "tongjifenxi",
+      "unicode": "e656",
+      "unicode_decimal": 58966
+    },
+    {
+      "icon_id": "1350750",
+      "name": "商家",
+      "font_class": "shangjia",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "26344626",
+      "name": "数据收集",
+      "font_class": "shouji",
+      "unicode": "f22f",
+      "unicode_decimal": 61999
+    },
+    {
+      "icon_id": "1191698",
+      "name": "提供发票",
+      "font_class": "liandan",
+      "unicode": "e719",
+      "unicode_decimal": 59161
+    },
+    {
+      "icon_id": "1727329",
+      "name": "11中转站-线性",
+      "font_class": "zhongzhuang",
+      "unicode": "e88e",
+      "unicode_decimal": 59534
+    },
+    {
+      "icon_id": "8400538",
+      "name": "增材制造",
+      "font_class": "zaoli",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "4294078",
+      "name": "运输",
+      "font_class": "yunshu",
+      "unicode": "e789",
+      "unicode_decimal": 59273
+    }
+  ]
+}

@@ -1,78 +1,105 @@
-.update {
-  border: solid 1px #67c23a;
-}
-
-.update:hover {
-  border: solid 1px #57a135;
-}
-
-.detail {
-  border: solid 1px #f5af3b;
-}
-
-.delete {
-  border: solid 1px #dd6161;
-}
-
-.delete:hover {
-  border: solid 1px #c95c5d;
-}
-
-.add {
-  width: 50px;
-  height: 30px;
-  border-radius: 5px;
-  text-align: center;
+.import-data {
+  border: 1px solid #F8FDFF;
   color: #fff;
-  line-height: 30px;
-  border: solid 1px #3a8ee6;
+  padding: 9px 32px;
 }
 
-.add:hover {
-  border: solid 1px #3884d3;
+.export-data {
+  border: 1px solid #00E6FF;
+  color: #00E6FF;
+  padding: 9px 32px;
 }
 
-.common-button {
-  border: solid 1px #3a8ee6;
-}
+.el-table {
+  color: rgba(0, 0, 0, 0.9);
 
-.common-button:hover {
-  border: solid 1px #3884d3;
-}
-
-.inline-button {
-  display: flex;
-  justify-content: space-between;
-}
-
-.my-button {
-  width: 40px;
-  height: 25px;
-  border-radius: 5px;
-  text-align: center;
-  color: #fff;
-  cursor: pointer;
-  margin: 0 auto;
-}
-
-.my_table {
-  margin-top: 20px;
-}
-
-.cursor {
-  cursor: pointer;
-}
-
-//文件上传组件
-.upload-component {
-  .el-upload {
-    .el-upload-dragger {
-      background: #191c21;
-    }
+  .el-table__cell {
+    padding: 10.5px 0;
   }
 }
 
-.marginAuto {
-  margin: 0 auto;
+.el-table thead {
+  color: rgba(0, 0, 0, 0.4);
 }
 
+// 分页
+.page, .pageNum {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+// ----end
+.table_box {
+  margin-bottom: 46px;
+}
+
+// 高德去水印
+.amap-copyright { display:none!important; opacity: 0!important;}
+.amap-logo { display:none!important; opacity: 0!important;}
+
+.el-tree {
+  background: initial;
+  color: #fff;
+}
+.my-tree-node {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    padding-right: 8px;
+    .right_box{
+      // border: solid red;
+      // min-width: auto;
+      display: flex;
+      align-items: center;
+      justify-content:flex-start;
+      user-select: none;
+      margin-right: 30px;
+      &>div{
+        width: 50px;
+        margin-right: 55px;
+      }
+      &>div:last-of-type{
+        margin-right: 0px;
+      }
+    }
+    .no_select{
+        position: relative;
+    }
+    .no_select::before {
+        content: '';
+        position: absolute;
+        left: -20px;
+        top: 3px;
+        border: 1px solid #DCDFE6;
+        border-radius: 2px;
+        box-sizing: border-box;
+        width: 14px;
+        height: 14px;
+        background-color: #FFF;
+    }
+    .select{
+        position: relative;
+        color: #409EFF;
+    }
+    .select::before {
+      background-color: #409EFF;
+      border-color: #409EFF;
+      position: absolute;
+      left: -20px;
+      top: 3px;
+      box-sizing: content-box;
+      content: "✓";
+      width: 14px;
+      height: 14px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 10px;
+    }
+  }
